@@ -1,3 +1,4 @@
+
 /**
  * @file lib.c
  * @brief Файл з реалізацією функцій оперування тваринами
@@ -13,6 +14,9 @@ char *get_animal_type_name(enum animal_type type)
 {
 	char *result;
 	switch (type) {
+	case HUMAN:
+		result = "4ekovek";
+		break;
 	case CAT:
 		result = "Кіт";
 		break;

@@ -19,12 +19,13 @@
 /**
  * Кількість тварин у масиві
  */
-#define ANIMAL_COUNT 10
+#define ANIMAL_COUNT 11
 
 /**
  * Тип тварини
  */
 enum animal_type {
+	HUMAN, /**< 4elovek>*/
 	PIG, /**< Свиня */
 	COW, /**< Корова */
 	DOG, /**< Собака */
